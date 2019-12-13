@@ -1,0 +1,6 @@
+#!/bin/bash
+
+read -a tablica
+for(( i=0;$i<=9;i++ ));do
+echo ${tablica[i]}
+done
